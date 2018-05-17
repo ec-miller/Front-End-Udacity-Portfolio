@@ -9,7 +9,7 @@
   <meta name="description" content="Eric Miller Works">
   <meta name="author" content="Eric Miller">
 
-  <link href="https://fonts.googleapis.com/css?family=Arimo|Muli|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
 
 </head>
@@ -17,20 +17,25 @@
 <body>
   <div class="container">
     <header class="header">
-      <img class="icon" src="lib/icon.png" title="udacity icon" />
+      <img class="icon" src="lib/icon.png" title="udacity icon" alt="udacity icon" />
       <div class="title">
         <h1>Eric Miller</h1>
         <h3>Front-End Warrior</h3>
       </div>
     </header>
-    <section class="hero">
-      <img class="heroImg" src="lib/laptop.jpg" title="programming workspace"/>
-    </section>
+    <div class="hero">
+      <img class="heroImg"
+      srcset="lib/laptop_450.jpg 450w,
+              lib/laptop_850.jpg 850w"
+      sizes="(max-width: 450px) 450px,
+            850px"
+      src="lib/laptop_850.jpg" title="programming workspace" alt="programming workspace"/>
+    </div>
     <section class="intro">
       <h2>About Me</h2>
       <p>Hi, my name is Eric Miller. I recently earned a Grow With Google scholarship to
-      study in the Front-End Web Developer Nanodegree program. This website is a portfolio
-      of the projects that I have completed in my studies. In the Cards below you can peep the
+      study in the Udacity Front-End Web Developer Nanodegree program. This website is a portfolio
+      of the projects that I have completed in my studies. In the cards below you can peep the
       finished products or view the GitHub repository. Enjoy the projects and feel free
       to reach out on LinkedIn if you'd like to
       <a href="https://www.linkedin.com/in/ecmillerphd/" target="_blank">connect</a>!
@@ -39,7 +44,7 @@
     <section class="projects container">
       <div class="shell">
         <div class="card">
-          <img class="cardImg" src="lib/scrabble.jpg" title="playing scrabble"/>
+          <img class="cardImg" src="lib/scrabble_450.jpg" title="playing scrabble" alt="playing scrabble"/>
           <h2>MEMORY GAME</h2>
           <a href='#'>Check it out!</a>
           <a href="https://github.com/ec-miller" target="_blank">Code</a>
@@ -47,55 +52,48 @@
       </div>
       <div class="shell">
         <div class="card">
-          <img class="cardImg" src="lib/scrabble.jpg" title="playing scrabble"/>
-          <h2>MEMORY GAME</h2>
+          <img class="cardImg" src="lib/arcade_450.jpg" title="joysticks and buttons" alt="joysticks and buttons"/>
+          <h2>ARCADE GAME</h2>
           <a href='#'>Check it out!</a>
           <a href="https://github.com/ec-miller" target="_blank">Code</a>
         </div>
       </div>
       <div class="shell">
         <div class="card">
-          <img class="cardImg" src="lib/scrabble.jpg" title="playing scrabble"/>
-          <h2>MEMORY GAME</h2>
+          <img class="cardImg" src="lib/reader_450.jpg" title="person reading news on tablet" alt="person reading news on tablet"/>
+          <h2>FEED READER TESTING</h2>
           <a href='#'>Check it out!</a>
           <a href="https://github.com/ec-miller" target="_blank">Code</a>
         </div>
       </div>
       <div class="shell">
         <div class="card">
-          <img class="cardImg" src="lib/scrabble.jpg" title="playing scrabble"/>
-          <h2>MEMORY GAME</h2>
+          <img class="cardImg" src="lib/food_450.jpg" title="yummy food" alt="yummy food"/>
+          <h2>RESTAURANT REVIEWS</h2>
           <a href='#'>Check it out!</a>
           <a href="https://github.com/ec-miller" target="_blank">Code</a>
         </div>
       </div>
       <div class="shell">
         <div class="card">
-          <img class="cardImg" src="lib/scrabble.jpg" title="playing scrabble"/>
-          <h2>MEMORY GAME</h2>
+          <img class="cardImg" src="lib/book_450.jpg" title="open book in grass" alt="open book in grass"/>
+          <h2>MY READS</h2>
           <a href='#'>Check it out!</a>
           <a href="https://github.com/ec-miller" target="_blank">Code</a>
         </div>
       </div>
       <div class="shell">
         <div class="card">
-          <img class="cardImg" src="lib/scrabble.jpg" title="playing scrabble"/>
-          <h2>MEMORY GAME</h2>
+          <img class="cardImg" src="lib/map_450.jpg" title="map on table" alt="map on table"/>
+          <h2>NEIGHBORHOOD MAP</h2>
           <a href='#'>Check it out!</a>
           <a href="https://github.com/ec-miller" target="_blank">Code</a>
         </div>
       </div>
     </section>
-    <footer class"foot">
-      <h3>Created by Eric Miller as part of the Front-End Web Developer Nanodegree Program</h3>
+    <footer class="foot">
+      <h5>Created by Eric Miller as part of the Front-End Web Developer Nanodegree Program</h5>
     </footer>
   </div>
-
-
-
-
-
-
-  <script src="scripts/main.js"></script>
 </body>
 </html>

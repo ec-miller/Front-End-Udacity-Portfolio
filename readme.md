@@ -1,9 +1,13 @@
-# Front-End Development Portfolio for Udacity Front-End Web Developer Nanodegree program.
+# Front-End Development Portfolio
+##Udacity Front-End Web Developer Nanodegree program.
 
 Hi, my name is Eric Miller. I recently earned a Grow With Google scholarship to
 study in the Udacity Front-End Web Developer Nanodegree program. This website is a portfolio
-of the projects that I am completing as part of my studies. In the cards in the site you can peep the
-finished products or view the GitHub repository. Enjoy!
+of the projects that I am completing as part of my studies.
+
+Note that these projects are works in progress and will be completed over the next 5 months. I will update the History section below as the projects are completed.
+
+In the cards in the site you can try out the finished products or view their GitHub repositories. Enjoy!
 
 ## Technologies
 - HTML5

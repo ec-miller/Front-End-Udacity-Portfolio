@@ -7,7 +7,7 @@ of the projects that I am completing as part of my studies.
 
 Note that these projects are works in progress and will be completed over the next 5 months. I will update the History section below as the projects are completed.
 
-In the cards in the site you can try out the finished products or view their GitHub repositories. Enjoy!
+You can check out the site [here](https://ec-miller.github.io/Front-End-Udacity-Portfolio/). Scroll down to the cards to try out the finished products or view their GitHub repositories. Enjoy!
 
 ## Technologies
 - HTML5

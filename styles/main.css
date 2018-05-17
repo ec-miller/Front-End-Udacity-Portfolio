@@ -73,7 +73,7 @@ body {
 
 .intro a {
   color: #6200EE;
-  margin: 0rem;
+  margin: 0;
   text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ body {
   background-color: #03DAC6;
   border-style: solid;
   border-color: #04ccb8;
-  border-width: 0px;
+  border-width: 0;
   box-shadow: 7px 10px 20px 5px #2c0663;
   padding-bottom: 2rem;
 }
